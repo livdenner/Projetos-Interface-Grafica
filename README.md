@@ -13,13 +13,13 @@ O objetivo é aplicar conceitos de **HTML e CSS** desenvolvendo três dos cinco 
   
 ---
 ## 📁 Projeto 1
-O Projeto 1 consiste em um formulário de pesquisa.
+O Projeto 1 consiste em um portifólio pessoal .
 
 -print
 
 ---
 ## 📁 Projeto 2
-O Projeto 1 consiste em uma página de portifólio pessoal.
+O Projeto 1 consiste em uma página de formulário de pesquisa.
 
 -print
 
