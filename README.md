@@ -4,7 +4,6 @@
 Este projeto foi desenvolvido como parte de um trabalho acadêmico.
 O objetivo é aplicar conceitos de **HTML e CSS** desenvolvendo três dos cinco projetos disponibilizados pelo site recomendado pelo professor. 
 
----
 
 ## Grupo
 
