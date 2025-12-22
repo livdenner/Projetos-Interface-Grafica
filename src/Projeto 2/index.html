@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de pesquisa</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
       <header>
-        <h1 id-="title">Music Survey Form</h1> 
+        <h1 id="title">Music Survey Form</h1> 
       </header> 
-    <p id="description">description</p>
+    <p id="description">Tell us about your music preferences</p>
     <form id="survey-form">
         <fieldset>
-            <label for="name-label">Name <input name="name-label" type="text" placeholder="Username" required></label>
-            <label for="email-label">Email <input id="email-label" name="email-adress" type="email" placeholder="Email address"></label>
-            <label for="namber-label">Age <input id="namber-label"name="age" type="number" min="16" max="100" placeholder="Age"></label>
+            <label id="name-label" for="name">Name <input class="gray-input" id="name" type="text" placeholder="Username" required></label>
+            <label id="email-label" for="email">Email <input class="gray-input" id="email" type="email" placeholder="Email address" required></label>
+            <label id="number-label" for="number">Age <input class="gray-input" id="number" type="number" min="16" max="100" placeholder="Age" required></label>
         </fieldset>
         <fieldset>
             <legend>Account Type</legend>
-            <label for="free-account"><input id="free-account" type="radio" name="account-type"  checked /> Free</label>
-        <label for="premium-account"><input id="premium-account" type="radio" name="account-type"  /> Premium</label>
+            <label for="free-account"><input id="free-account" type="radio" name="account-type" value="free" checked /> Free</label>
+        <label for="premium-account"><input id="premium-account" type="radio" name="account-type" value="premium" /> Premium</label>
         
          <label for="referrer">What type of premium account do you have?
           <select id="dropdown" name="dropdown">
@@ -33,17 +33,17 @@
         </fieldset>
         <fieldset>
             <legend>what kind of music do you like?</legend>
-            <label><input type="checkbox" id="gender" value="pop"> Pop</label>
-            <label><input type="checkbox" value="rock">Rock</label>
-            <label><input type="checkbox" value="rap">Rap</label>
-            <label><input type="text" placeholder="Other"></label>
+            <label for="gender"><input type="checkbox" id="gender" value="pop"> Pop</label>
+            <label for="gender"><input type="checkbox" id="gender" value="rock">Rock</label>
+            <label for="gender"><input type="checkbox" id="gender" value="rap">Rap</label>
+            <label for="other-gender"><input class="gray-input" id="other-gender"type="text" placeholder="Other"></label>
         </fieldset>
         <fieldset>
             <label for="bio">Tell us more about yourself:
           <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like to listen to music while..."></textarea>
         </label>
         </fieldset>
-        <input type="submit" value="submit">   
+        <input id="submit" type="submit" value="Enviar">   
     </form>
 </body>
 </html>
