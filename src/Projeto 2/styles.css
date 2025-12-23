@@ -83,6 +83,7 @@ input[type="radio"],
 input[type="checkbox"] {
   width: auto;
   margin-right: 8px;
+  accent-color: #1db954;
 }
  hr{
   height: 3px;
@@ -90,3 +91,7 @@ input[type="checkbox"] {
   border: none;
   border-radius: 10px;
  }
+ form {
+  transform: scale(0.8);
+  transform-origin: top center;
+}
