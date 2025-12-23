@@ -18,16 +18,14 @@ O Projeto 1 consiste em um portifólio pessoal .
 -print
 
 ---
-## 📁 Projeto 2
-O Projeto 1 consiste em uma página de formulário de pesquisa.
 
----
 ## 📁 Projeto 2
 O Projeto 1 consiste em uma página de formulário de pesquisa.
+<br><br>
+Está imagem é uma representação da página feita pelo figma.
 
 <img src="SurveyForm.png" width="300">
 
----
 
 ---
 ## 📁 Projeto 3
