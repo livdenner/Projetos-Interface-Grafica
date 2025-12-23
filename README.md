@@ -21,7 +21,13 @@ O Projeto 1 consiste em um portifólio pessoal .
 ## 📁 Projeto 2
 O Projeto 1 consiste em uma página de formulário de pesquisa.
 
-![Formulário](img/SurveyForm.png)
+---
+## 📁 Projeto 2
+O Projeto 1 consiste em uma página de formulário de pesquisa.
+
+<img src="SurveyForm.png" width="300">
+
+---
 
 ---
 ## 📁 Projeto 3
