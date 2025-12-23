@@ -21,7 +21,7 @@ O Projeto 1 consiste em um portifólio pessoal .
 ## 📁 Projeto 2
 O Projeto 1 consiste em uma página de formulário de pesquisa.
 
--print
+![Formulário](img/SurveyForm.png)
 
 ---
 ## 📁 Projeto 3
