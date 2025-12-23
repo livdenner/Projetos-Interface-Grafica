@@ -1,13 +1,17 @@
 body{
     background-color: #212121;
 }
-fieldset{
-    background-color: #535353;
-    border: 5px solid #535353;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 20px 0;
+
+fieldset {
+  background-color: #535353;
+  border: none;
+  border-radius: 25px;
 }
+
+select{
+  margin: 15px auto;
+}
+
 #title,label, legend, p{
     color: white
 }
@@ -31,13 +35,15 @@ p{
   color: white;
 }
 
-
 form {
-  background-color: transparent;
+  background-color: #535353;
   width: 90%;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 30px;
 }
+
 
 input[type="submit"] {
   display: block;
@@ -50,6 +56,13 @@ input[type="submit"] {
   color: white;
   border-radius: 16px;
 }
+fieldset label:has(input[type="radio"]),
+fieldset label:has(input[type="checkbox"]) {
+  flex-direction: row;
+  align-items: center;
+  margin: 20px auto;
+}
+
 
 input,
 select,
@@ -61,8 +74,19 @@ textarea {
 }
 
 textarea{
-    margin: auto;
+    margin: 25px auto;
     width: 80%;
     display: block;
 
 }
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+ hr{
+  height: 3px;
+  background-color: #1db954;
+  border: none;
+  border-radius: 10px;
+ }
