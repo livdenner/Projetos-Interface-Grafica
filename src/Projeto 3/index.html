@@ -3,9 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página de produto</title>
 </head>
 <body>
-    
+
+    <header id header>
+        <div class="logo-container">
+            <img id="header-img" src="https://cdn.pixabay.com/photo/2024/04/29/16/32/gaming-8728363_1280.jpg" alt="logo gameStore">
+            <span>gameStore dev☕</span>
+        </div>
+
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Vantagens</a>
+            <a class="nav-link" href="#video-section">Seja nosso assinante</a>
+            <a class="nav-link" href="#pricing">Planos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Descubra os melhores jogos</h2>
+
+            <form id="form" action = "https://www.freecodecamp.com/email-submit">
+                <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Digite seu e-mail aqui" 
+                    required
+                >
+
+                <input id="submit" type="submit" value="QUERO COMEÇAR">
+            </form>
+        </section>
+
+        <hr>
+
+        <section id="features">
+            <div class="feature-item">
+                <h3>🎮O Maior Catálogo De Jogos</h3>
+                <p>O maior e melhor catálogo de jogos por assinatura.</p>
+            </div>
+            <div class="feature-item">
+                <h3>🚀Divirta Nas Horas Vagas</h3>
+                <p>Escolha um dos nossos milhares de jogos disponíveis e faça sua gameplay.</p>
+            </div>
+            <div class="feature-item">
+                <h3>❌Cancele Quando quiser</h3>
+                <p>Pode cancelar sem custo adicional!</p>
+            </div>
+        </section>
+
+        <section id="video-section">
+            <iframe 
+                id="video" 
+                height="315" 
+                src="https://www.youtube.com/embed/cjaaSLibB04?si=NEKzWWoR146g9eIW" 
+                title="YouTube video player" 
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="pricing">
+            <div class="card">
+                <h3>Plano mensal junior</h3>
+                <p>R$ 49,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h3>Plano semestral Senior</h3>
+                <p>R$ 249,99</p>
+                <button>Comprar</button>
+            </div>
+            <div class="card">
+                <h3>Plano anual Full Stack</h3>
+                <p>R$ 399,99</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2025, gameStore dev☕</p>
+    </footer>
 </body>
 </html>
