@@ -29,7 +29,9 @@ Está imagem é uma representação da página feita pelo figma.
 
 ---
 ## 📁 Projeto 3
-O Projeto 1 consiste em um ------.
+O Projeto 1 consiste em um product landing page - gameStore dev☕.
+<br><br>
+Esta é uma landing page promocional para uma marca fictícia de jogos por assinatura.
 
 -print
 
