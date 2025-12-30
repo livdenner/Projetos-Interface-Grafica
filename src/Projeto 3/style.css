@@ -189,3 +189,64 @@ p,h1,h2,h3,span{
   backdrop-filter: blur(15px);
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #212121; 
+    z-index: 100; 
+    
+    
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; 
+    box-sizing: border-box;
+    height: 75px; 
+}
+
+#header-img {
+    height: 50px; 
+    width: auto;
+    border-radius: 50%; 
+    vertical-align: middle;
+}
+
+.logo-container {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+main {
+    margin-top: 80px; 
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column; 
+        height: auto;
+        padding-bottom: 10px;
+    }
+    
+    #nav-bar {
+        margin-top: 10px;
+        flex-direction: column; 
+        text-align: center;
+    }
+} 
+
