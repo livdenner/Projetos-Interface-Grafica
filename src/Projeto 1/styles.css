@@ -20,7 +20,7 @@ body {
   color: var(--brand-deep);
 }
 
-/* Navbar - Glassmorphism */
+
 #navbar {
   position: fixed;
   top: 0;
@@ -57,7 +57,7 @@ body {
   color: var(--brand-navy);
 }
 
-/* Welcome & Contact */
+
 #welcome-section,
 #contact {
   display: flex;
@@ -75,7 +75,7 @@ body {
   font-size: clamp(2.5rem, 8vw, 4.5rem);
   font-weight: 800;
   margin-bottom: 1rem;
-  /* Branco sólido e limpo */
+ 
   color: #ffffff; 
   text-shadow: none; 
   filter: none;
@@ -88,7 +88,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* Projetos */
+
 .projects-section {
   padding: 8rem 2rem;
   background-color: var(--bg-soft);
@@ -143,7 +143,7 @@ body {
   background-color: var(--pure-white);
 }
 
-/* Link de Perfil */
+
 #profile-link {
   font-weight: 600;
   color: var(--pure-white);
@@ -165,7 +165,7 @@ h2{
   color: white;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
   #navbar {
     justify-content: center;
