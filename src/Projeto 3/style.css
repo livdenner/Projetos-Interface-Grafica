@@ -85,12 +85,7 @@ header {
   border-radius: 50%;
 }
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-  font-weight: 500;
-}
+
 
 .hero {
   text-align: center;
@@ -173,20 +168,6 @@ footer {
 }
 p,h1,h2,h3,span{
     color: white;
-}
-
-#nav-bar {
-  position: fixed;
-  top: 0;
-  right: 0;
-
-  display: flex;
-  gap: 20px;
-
-  background: rgba(215, 215, 215, 0.1);
-  padding: 15px 30px;
-  width: 100%;
-  backdrop-filter: blur(15px);
 }
 
 #header {
