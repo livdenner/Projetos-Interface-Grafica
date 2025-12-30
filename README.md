@@ -22,18 +22,19 @@ O Projeto 1 consiste em um portifólio pessoal .
 ## 📁 Projeto 2
 O Projeto 1 consiste em uma página de formulário de pesquisa.
 <br><br>
-Está imagem é uma representação da página feita pelo figma.
+Essa imagem é uma representação da página feita pelo figma.
 
-<img src="SurveyForm.png" width="300">
+<img src="SurveyForm.png" width="400">
 
 
 ---
 ## 📁 Projeto 3
 O Projeto 1 consiste em um product landing page - gameStore dev☕.
 <br><br>
-Esta é uma landing page promocional para uma marca fictícia de jogos por assinatura.
+Essa é uma landing page promocional para uma marca fictícia de jogos por assinatura.
 
--print
+<img width="1701" height="909" alt="image" src="https://github.com/user-attachments/assets/15262014-9eab-495e-8a5f-cf536aae73d7" />
+
 
 ---
 ## 🎯 Objetivo
