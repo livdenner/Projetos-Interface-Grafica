@@ -15,7 +15,8 @@ O objetivo é aplicar conceitos de **HTML e CSS** desenvolvendo três dos cinco 
 ## 📁 Projeto 1
 O Projeto 1 consiste em um portifólio pessoal .
 
--print
+<img width="1701" height="909" alt="image" src="https://github.com/user-attachments/assets/fd0f681f-955a-4c7a-b5e6-0e6b24153ba8" />
+
 
 ---
 
@@ -24,7 +25,7 @@ O Projeto 1 consiste em uma página de formulário de pesquisa.
 <br><br>
 Essa imagem é uma representação da página feita pelo figma.
 
-<img src="SurveyForm.png" width="400">
+<img src="SurveyForm.png" width="400" height ="909">
 
 
 ---
